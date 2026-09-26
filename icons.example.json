@@ -1,0 +1,42 @@
+{
+  "_comment": "Ornek: Lolth'un Secilmisi (chosen) ikonlari. 'index' = STATDESC.2DA satiri (opcode 142 parameter2). Kaynak PNG'ler tools/art/ altinda.",
+  "out_dir": "game-work/chosen/icons",
+  "format": "bamc",
+  "size": 13,
+  "threshold": 28,
+  "steps": 64,
+  "palette_base": 182,
+  "palette_pool": 64,
+  "background": "auto",
+  "outline": false,
+  "icons": [
+    {
+      "name": "CHFURYI",
+      "png": "tools/art/flame.png",
+      "index": 209,
+      "strRef": "Gazap",
+      "tint": [255, 120, 30]
+    },
+    {
+      "name": "CHRESI",
+      "png": "tools/art/roman-shield.png",
+      "index": 210,
+      "strRef": "Direnc",
+      "tint": [90, 150, 255]
+    },
+    {
+      "name": "CHSPDI",
+      "png": "tools/art/spider-alt.png",
+      "index": 211,
+      "strRef": "Orumcek",
+      "tint": [170, 110, 230]
+    },
+    {
+      "name": "CHRETI",
+      "png": "tools/art/poison-bottle.png",
+      "index": 212,
+      "strRef": "Misilleme",
+      "tint": [90, 210, 90]
+    }
+  ]
+}
